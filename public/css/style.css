@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+}
+#calculette{
+    background-color: black;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.firstSpan{
+    margin-top: 10px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    max-width: max-content;
+}
+#myInput{
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.row{
+    display: flex;
+    margin-bottom: 40px;
+}
+button{
+    font-size: 40px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
