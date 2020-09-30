@@ -1,4 +1,6 @@
-
+body{
+    background-color: grey;
+}
 h1{
     text-align: center;
 }
@@ -23,6 +25,7 @@ h1{
     margin-left: 15px;
     margin-right: 20px;
     margin-bottom: 40px;
+    font-size: 30px;
 }
 .row{
     display: flex;
