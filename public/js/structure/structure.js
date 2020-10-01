@@ -1,6 +1,6 @@
 let myScript=document.querySelector("script");
 // h1
-let myBody=document.querySelector('body');
+export let myBody=document.querySelector('body');
 let titrePrincipal=document.createElement("h1");
 titrePrincipal.textContent="Création calculatrice";
 myBody.insertBefore(titrePrincipal,myScript);
@@ -17,8 +17,7 @@ let mySpace=document.createElement("br")
 myDiv.appendChild(mySpace)
 //input
 export let myInput=document.createElement("input");
-myInput.setAttribute("id","myInput");
-myInput.setAttribute("type","text");
+myInput.setAttribute("type","number")
 myDiv.appendChild(myInput);
 // les Rows
 // Row1
@@ -139,12 +138,3 @@ buttonDiv.style.backgroundColor="rgb(66, 159, 202)"
 buttonDiv.style.border="none"
 buttonDiv.style.borderRadius="7px"
 myRow4.appendChild(buttonDiv)
-
-
-
-
-
-
-
-
-
