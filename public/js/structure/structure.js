@@ -11,7 +11,7 @@ myBody.appendChild(myDiv)
 // premier span 
  export let firstSpan=document.createElement("span")
 firstSpan.className="firstSpan";
-firstSpan.textContent="mon premier span ";
+firstSpan.textContent="CLEAR ";
 myDiv.appendChild(firstSpan)
 let mySpace=document.createElement("br")
 myDiv.appendChild(mySpace)
